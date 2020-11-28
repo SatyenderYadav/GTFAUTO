@@ -45,11 +45,11 @@ for element in soup.select('code'):
 
 for element in range(len(remove_code)):
     if  remove_code[element] in all_code_tags:
-        # print(element)
+        
         all_code_tags.remove(remove_code[element])
     else:
       pass
-    # print(remove_code[element])
+    
 
 for element in range(len(all_code_tags)):
     print("   \u001b[92;1m|--\u001b[1;94m[*] "+all_h1_tags[element])
