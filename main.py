@@ -50,9 +50,12 @@ for element in range(len(remove_code)):
     else:
       pass
     
-
 for element in range(len(all_code_tags)):
     print("   \u001b[92;1m|--\u001b[1;94m[*] "+all_h1_tags[element])
-    print("   \u001b[92;1m|-------- \u001b[1;97m"+all_code_tags[element])
-    print()
+    print("   \u001b[92;1m|")
+    print("   \u001b[92;1mv")
+    print("\u001b[1;97m"+ all_code_tags[element])
+    print("\u001b[1;97m")
+    print("\u001b[1;97m")
+    
    
